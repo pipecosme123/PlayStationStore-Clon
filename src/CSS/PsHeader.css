@@ -1,0 +1,52 @@
+.nav-item.nav-link {
+    font-family: "SSTW20", helvetica;
+}
+
+.navbar, .navbar.bg-light {
+    background-color: #ffffff;
+
+    /*height: 2rem;*/
+}
+
+.navbar-center{
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    left: 50%;
+    transform: translatex(-50%);
+    font-weight: 700;
+}
+
+.navbar-center a{
+    color: rgb(61, 61, 61);
+}
+
+nav.sticky-top {
+    position: sticky;
+    top: 80px;
+}
+
+.nav-item{
+    margin-left: 1rem;
+}
+
+.d-flex button {
+    background-color: #ffffff;
+    border: 0px solid #fff;
+    color: black;
+    height: 1rem;
+}
+
+.d-flex button:hover {
+    background-color: #fff;
+    color: #000;
+
+}
+
+.sony_logo {
+    padding: 0.5rem;
+    background-color: #000000;
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1rem;
+}

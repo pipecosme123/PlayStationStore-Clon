@@ -1,0 +1,24 @@
+.recomendados{
+    margin-left: -1.5rem !important;
+    margin-right: -1.5rem !important;
+    overflow: hidden;
+    padding: 0px 0px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;    
+}
+
+.recomendados img{
+    margin:1rem;
+    padding: .10rem;
+
+}
+
+.container-fluid{
+    padding-right: 0px;
+    padding-left: 0px;
+}
+
+h1.title_rec{
+    text-align: center;
+}

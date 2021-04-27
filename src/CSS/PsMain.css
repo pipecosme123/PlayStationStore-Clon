@@ -1,0 +1,102 @@
+.content{
+    font-family: "SST", helvetica;
+    overflow: hidden;
+}
+
+.content:after{
+    margin: 0;
+    padding: 0;
+}
+
+button.btn{
+    color: #fff;
+    background-color: #363636;
+    border: 0px solid;
+    border-radius: 50px;
+    font-weight:bold;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+
+button.btn.btn_of{
+    color: #fff;
+    background-color: #0180C7;
+}
+
+button.icon{
+    color: #363636;
+    background-color: transparent;
+    border: 0px solid;
+    border-radius: 50px;
+    font-weight:bold;
+}
+
+input{
+    border: 0px solid #fff;
+}
+
+h1.title{
+    font-weight:lighter;
+}
+
+img.picture{
+    border: .20rem solid #fff;
+}
+
+img.picture:hover{
+    border: .20rem solid #0180C7;
+}
+
+.img_banner{
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    z-index: -3rem;
+    margin-top: 5rem;
+    height: 25rem;
+    overflow: hidden;
+}
+
+.ofertas{
+    display: flex;
+    justify-content: space-around;
+    padding: 4rem;
+    /*background-color: chartreuse;
+    background: linear-gradient(to bottom, #0180C7, #ffffff);
+    background-attachment:fixed;
+    margin-top: -10rem;
+    z-index: 3rem !important;*/
+}
+
+.slider{
+    margin: 5rem;
+}
+
+.Psfooter{
+    background-color: #00439c;
+    color: #fff;
+    padding: 5rem;
+}
+
+.footer{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.options{
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.options ul{
+    list-style: none;
+}
+
+.options ul li a{
+    text-decoration: none;
+    color:#fff;
+    padding: 2rem;
+}
