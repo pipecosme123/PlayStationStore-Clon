@@ -21,9 +21,13 @@
     color: rgb(61, 61, 61);
 }
 
-nav.sticky-top {
-    position: sticky;
-    top: 80px;
+nav.sticky{
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    z-index: 10000000;
+    background-color: #ffffff;
 }
 
 .nav-item{

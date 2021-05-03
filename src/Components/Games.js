@@ -94,6 +94,12 @@ export const Coming_Soon = [
         "cost": "US89.99$",
         "img": `${Images.game_MassEffect}`,
     },
+    {
+        "nickname": "MassEffect",
+        "name": "Mass Effect™ Legendary Edition",
+        "cost": "US89.99$",
+        "img": `${Images.game_MassEffect}`,
+    },
 ];
 
 export const Recomendados = [
